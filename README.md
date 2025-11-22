@@ -106,7 +106,7 @@ Contributions are always welcome!
 <!-- Resources -->
 ## :gem: Resources
 
-- [Dataset Repository](https://github.com/EF20K/Dataset) - Dataset documentation and access
+- [Datasets Repository](https://github.com/EF20K/Datasets) - Dataset documentation and access
 - [Safety Repository](https://github.com/EF20K/Safety) - Report issues with projects or data
 - [House Oversight Release](https://oversight.house.gov/release/oversight-committee-releases-additional-epstein-estate-documents/) - Original source
 
