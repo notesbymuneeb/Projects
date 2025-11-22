@@ -1,8 +1,8 @@
 <div align="center">
-  <h1>Epstein Files 20K</h1>
+  <h1>Epstein Files 20K Projects</h1>
   
   <p>
-    Community tools for analyzing public Epstein files from the House Oversight Committee
+    Community-driven projects for analyzing public Epstein files from the House Oversight Committee
   </p>
   
 <!-- Badges -->
@@ -30,19 +30,21 @@
 </div>
 <br />
 <!-- Table of Contents -->
-# :notebook_with_decorative_cover: Table of Contents
-- [About](#star2-about)
-- [Getting Started](#rocket-getting-started)
-- [Projects](#toolbox-projects)
-- [Contributing](#wave-contributing)
-- [Resources](#gem-resources)
+# 📔 Table of Contents
+- [About](#-about)
+- [Getting Started](#-getting-started)
+- [Projects](#-projects)
+- [Contributing](#-contributing)
+- [Resources](#-resources)
 <!-- About -->
-## :star2: About
-This repository catalogs community-developed tools for analyzing 20,000+ pages of public records released by the House Oversight Committee on November 12, 2025.
+## 🌟 About
+This repository catalogs community-developed projects for analyzing 20,000+ pages of public records released by the House Oversight Committee on November 12, 2025.
+
 > **Content Notice**: Documents contain sensitive material related to criminal investigations.
 
-<!-- Getting Started -->
-## :rocket: Getting Started
+> **⚠️ Verification Warning**: Many projects use AI models to analyze documents. AI models can make errors, miss information, or even hallucinate false details. **Always cross-verify findings with the actual source documents.** If you encounter inaccurate information or hallucinations, please [report it in the Safety repository](https://github.com/EF20K/Safety/issues/).
+
+## 🚀 Getting Started
 
 ### Quick Start with Python
 
@@ -58,9 +60,8 @@ This notebook provides:
 
 Perfect for users interested in developing new analysis tools or conducting research.
 
-<!-- Projects -->
-## :toolbox: Projects
-### :mag: Search & Analysis
+## 🧰 Projects
+### 🔍 Search & Analysis
 #### [Epstein Document Explorer](https://github.com/maxandrews/Epstein-doc-explorer)
 - **Purpose**: Browse and search document collection
 - **Key Features**: Advanced search, filtering, bookmarking
@@ -77,13 +78,12 @@ Perfect for users interested in developing new analysis tools or conducting rese
 - **Purpose**: Discover investigative leads
 - **Key Features**: AI scoring (0-100), entity extraction, categorization
 - **Privacy**: Runs entirely offline
-### :bar_chart: Visualization
+### 📊 Visualization
 #### [Epstein Files Visualizations](https://svetimfm.github.io/epstein-files-visualizations/)
 - **Purpose**: Visual analysis and patterns
 - **Key Features**: Interactive charts, relationship mapping
 - **Privacy**: Client-side processing
-<!-- Contributing -->
-## :wave: Contributing
+## 👋 Contributing
 Contributions are always welcome!
 ### Adding Your Project
 1. Fork this repository
@@ -100,8 +100,7 @@ Contributions are always welcome!
 - ✅ Clear documentation
 - ✅ Open-source preferred
 - ✅ Transparent data handling
-<!-- Resources -->
-## :gem: Resources
+## 💎 Resources
 - [Datasets Repository](https://github.com/EF20K/Datasets) - Dataset documentation and access
 - [Safety Repository](https://github.com/EF20K/Safety) - Report issues with projects or data
 - [House Oversight Release](https://oversight.house.gov/release/oversight-committee-releases-additional-epstein-estate-documents/) - Original source
