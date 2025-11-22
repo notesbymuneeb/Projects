@@ -70,7 +70,7 @@ Perfect for users interested in developing new analysis tools or conducting rese
 - **Key Features**: Advanced search, filtering, bookmarking
 - **Privacy**: Browser-based interface
 
-#### [Epstein Files Chat](https://github.com/nicoloboschi/epstein-files-chat)
+#### [Epstein Files Chat](https://agents.vectorize.io/agents/7d84aa5d-84ab-4991-b268-0b379983f57a/chat)
 - **Purpose**: Query documents using natural language
 - **Key Features**: AI-powered Q&A, conversational interface
 - **Privacy**: Configurable deployment
