@@ -4,10 +4,10 @@ A curated collection of community projects built using the [EPSTEIN_FILES_20K da
 
 ## About the Dataset
 
-In early 2025, approximately 20,000 pages of documents related to Jeffrey Epstein were released by the House Oversight Committee. These documents were subsequently organized, processed to convert images to text and uploaded to Hugging Face, making them accessible for analysis and exploration. The file can be found here
+In Novemeber 12, 2025 approximately 20,000+ pages of documents related to Jeffrey Epstein were released by the House Oversight Committee. These documents were subsequently organized, processed to create a single dataset and uploaded to Hugging Face, making them accessible for analysis and exploration. The file can be found here
 https://huggingface.co/datasets/tensonaut/EPSTEIN_FILES_20K
 
-The dataset quickly went popular across social media platforms including Reddit, Twitter, and Hugging Face itself, inspiring developers and researchers to build various tools for analyzing and navigating this massive collection of documents.
+The dataset quickly gained attention across social media platforms including Reddit, Twitter, and Hugging Face itself, inspiring developers and researchers to build various tools for analyzing and navigating this massive collection of documents.
 
 ## Featured Projects using EPSTEIN_FILES_20K
 
