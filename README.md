@@ -1,5 +1,4 @@
 <div align="center">
-
   <h1>Epstein Files 20K</h1>
   
   <p>
@@ -29,63 +28,64 @@
     <a href="https://github.com/EF20K/Projects/issues/">Request Feature</a>
   </h4>
 </div>
-
 <br />
-
 <!-- Table of Contents -->
 # :notebook_with_decorative_cover: Table of Contents
-
 - [About](#star2-about)
+- [Getting Started](#rocket-getting-started)
 - [Projects](#toolbox-projects)
 - [Contributing](#wave-contributing)
 - [Resources](#gem-resources)
-
 <!-- About -->
 ## :star2: About
-
 This repository catalogs community-developed tools for analyzing 20,000+ pages of public records released by the House Oversight Committee on November 12, 2025.
-
 > **Content Notice**: Documents contain sensitive material related to criminal investigations.
+
+<!-- Getting Started -->
+## :rocket: Getting Started
+
+### Quick Start with Python
+
+New to the dataset? Start with our beginner-friendly Jupyter notebook:
+
+**[Getting_Started_w_Dataset.ipynb](Getting_Started_w_Dataset.ipynb)**
+
+This notebook provides:
+- Step-by-step dataset loading
+- Basic exploration and analysis examples
+- Sample queries and filtering techniques
+- Foundation for building your own project
+
+Perfect for users interested in developing new analysis tools or conducting research.
 
 <!-- Projects -->
 ## :toolbox: Projects
-
 ### :mag: Search & Analysis
-
 #### [Epstein Document Explorer](https://github.com/maxandrews/Epstein-doc-explorer)
 - **Purpose**: Browse and search document collection
 - **Key Features**: Advanced search, filtering, bookmarking
 - **Privacy**: Browser-based interface
-
 #### [Epstein Files Chat](https://github.com/nicoloboschi/epstein-files-chat)
 - **Purpose**: Query documents using natural language
 - **Key Features**: AI-powered Q&A, conversational interface
 - **Privacy**: Configurable deployment
-
 #### [Epstein Ranker](https://github.com/latent-variable/epstein-ranker)
 - **Purpose**: Identify key documents by relevance
 - **Key Features**: Algorithm-based ranking, prioritized lists
 - **Privacy**: Local processing
-
 #### [Epstein Gate](https://epsteingate.org/)
 - **Purpose**: Discover investigative leads
 - **Key Features**: AI scoring (0-100), entity extraction, categorization
 - **Privacy**: Runs entirely offline
-
 ### :bar_chart: Visualization
-
 #### [Epstein Files Visualizations](https://svetimfm.github.io/epstein-files-visualizations/)
 - **Purpose**: Visual analysis and patterns
 - **Key Features**: Interactive charts, relationship mapping
 - **Privacy**: Client-side processing
-
 <!-- Contributing -->
 ## :wave: Contributing
-
 Contributions are always welcome!
-
 ### Adding Your Project
-
 1. Fork this repository
 2. Add your project using this format:
 ```markdown
@@ -95,23 +95,17 @@ Contributions are always welcome!
 - **Privacy**: Privacy approach
 ```
 3. Submit a pull request
-
 ### Guidelines
-
 - ✅ Legitimate research/journalism purposes
 - ✅ Clear documentation
 - ✅ Open-source preferred
 - ✅ Transparent data handling
-
 <!-- Resources -->
 ## :gem: Resources
-
 - [Datasets Repository](https://github.com/EF20K/Datasets) - Dataset documentation and access
 - [Safety Repository](https://github.com/EF20K/Safety) - Report issues with projects or data
 - [House Oversight Release](https://oversight.house.gov/release/oversight-committee-releases-additional-epstein-estate-documents/) - Original source
-
 ---
-
 <div align="center">
 <p>Community-maintained • Not affiliated with any official investigation</p>
 </div>
