@@ -41,17 +41,17 @@
 
 ## 🌟 About
 
-This repository catalogs community-developed projects for analyzing 20,000+ pages of public records released by the House Oversight Committee on November 12, 2025.
+This repository catalogs community developed projects for analyzing 20,000+ pages of Epstein files released by the House Oversight Committee on November 12, 2025.
 
 > **Content Notice**: Documents contain sensitive material related to criminal investigations.
 
-> **⚠️ Verification Warning**: Many projects use AI models to analyze documents. AI models can make errors, miss information, or even hallucinate false details. **Always cross-verify findings with the actual source documents.** If you encounter inaccurate information or hallucinations, please [report it in the Safety repository](https://github.com/EF20K/Safety/issues/).
+> **⚠️ Verification Warning**: Many projects use generative models to analyze documents and can make errors, miss information, or even hallucinate false details. **Always cross verify findings with the actual source documents.** If you encounter erronous information, please [report it in the Safety repository](https://github.com/EF20K/Safety/issues/).
 
 ## 🚀 Getting Started
 
 ### Quick Start with Python
 
-New to the dataset? Start with our beginner-friendly Jupyter notebook:
+New to the dataset? Start with our beginner friendly Jupyter notebook:
 
 **[Getting_Started_w_Dataset.ipynb](Getting_Started_w_Dataset.ipynb)**
 
@@ -90,7 +90,7 @@ Perfect for users interested in developing new analysis tools or conducting rese
 #### [Epstein Files Visualizations](https://svetimfm.github.io/epstein-files-visualizations/)
 - **Purpose**: Visual analysis and patterns
 - **Key Features**: Interactive charts, relationship mapping
-- **Privacy**: Client-side processing
+- **Privacy**: Client side processing
 
 ## 👋 Contributing
 
