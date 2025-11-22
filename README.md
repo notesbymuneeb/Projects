@@ -1,8 +1,8 @@
 <div align="center">
-  <h1>Epstein Files 20K Projects</h1>
+  <h1>Projects using Epstein Files 20K Dataset</h1>
   
   <p>
-    Community-driven projects for analyzing public Epstein files from the House Oversight Committee
+    Community driven projects for analyzing 20,000+ Epstein Estate files relased by House Oversight Committee 
   </p>
   
 <!-- Badges -->
@@ -21,7 +21,7 @@
 <h4>
     <a href="https://huggingface.co/datasets/tensonaut/EPSTEIN_FILES_20K">View Dataset</a>
   <span> · </span>
-    <a href="https://github.com/EF20K/Dataset">Documentation</a>
+    <a href="https://github.com/EF20K/Datasets">Documentation</a>
   <span> · </span>
     <a href="https://github.com/EF20K/Safety/issues/">Report Issue</a>
   <span> · </span>
