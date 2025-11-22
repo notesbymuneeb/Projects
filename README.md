@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Projects using Epstein Files 20K Dataset</h1>
+  <h1>EF20K Projects: Investigative Tools</h1>
   
   <p>
     Community driven projects for analyzing 20,000+ Epstein Estate files relased by House Oversight Committee 
@@ -56,12 +56,10 @@ New to the dataset? Start with our beginner-friendly Jupyter notebook:
 **[Getting_Started_w_Dataset.ipynb](Getting_Started_w_Dataset.ipynb)**
 
 This notebook provides:
-- Step-by-step dataset loading
 - Basic exploration and analysis examples
 - Sample queries and filtering techniques
-- Foundation for building your own project
 
-Perfect for users interested in developing new analysis tools or conducting research.
+Perfect for users interested in developing new analysis tools or conducting research using the hugging face dataset.
 
 ## 🧰 Projects
 
