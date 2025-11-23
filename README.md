@@ -1,133 +1,141 @@
 <div align="center">
-  <h1>EF20K Projects: Investigative Tools</h1>
+  <h1>Epstein Estate Documents: Investigation Tools</h1>
   
   <p>
-    Community driven projects for analyzing 20,000+ Epstein Estate files relased by House Oversight Committee 
+    Cataloging tools for analyzing public documents released by the House Oversight Committee
   </p>
   
-<!-- Badges -->
-<p>
-  <a href="https://huggingface.co/datasets/tensonaut/EPSTEIN_FILES_20K">
-    <img src="https://img.shields.io/badge/Dataset-Hugging%20Face-yellow" alt="datasets" />
-  </a>
-  <a href="">
-    <img src="https://img.shields.io/badge/Documents-20%2C000%2B%20Pages-blue" alt="documents" />
-  </a>
-  <a href="">
-    <img src="https://img.shields.io/badge/Community-Open%20Source-green" alt="community" />
-  </a>
-</p>
-   
-<h4>
-    <a href="https://huggingface.co/datasets/tensonaut/EPSTEIN_FILES_20K">View Dataset</a>
-  <span> · </span>
+  <p>
+    <a href="https://huggingface.co/datasets/tensonaut/EPSTEIN_FILES_20K">Dataset</a>
+    •
     <a href="https://github.com/EF20K/Datasets">Documentation</a>
-  <span> · </span>
-    <a href="https://github.com/EF20K/Safety/issues/">Report Issue</a>
-  <span> · </span>
-    <a href="https://github.com/EF20K/Projects/issues/">Request Feature</a>
-  </h4>
+    •
+    <a href="https://github.com/EF20K/Safety/issues/">Report Misuse</a>
+  </p>
 </div>
 
 <br />
 
-# Table of Contents
+## Important Context
 
-- [About](#-about)
-- [Getting Started](#-getting-started)
-- [Projects](#-projects)
-- [Contributing](#-contributing)
-- [Resources](#-resources)
+This repository catalogs tools for analyzing 20,000+ pages of documents released by the House Oversight Committee on November 12, 2024. These documents contain evidence related to serious criminal activities with real victims.
 
-## About
+**Critical Warnings:**
+- These documents involve real crimes and real victims
+- All analysis must respect victim privacy and dignity
+- Findings require rigorous verification against source documents
+- AI-generated analyses can contain errors or false information
+- This is not a typical data science project - approach with appropriate gravity
 
-This repository catalogs community developed projects for analyzing 20,000+ pages of Epstein files released by the House Oversight Committee on November 12, 2025.
+## Purpose
 
-> **Content Notice**: Documents contain sensitive material related to criminal investigations.
+These tools aim to support:
+- Professional journalists conducting investigations
+- Legal researchers analyzing evidence
+- Academic researchers with institutional oversight
+- Transparency and accountability efforts
 
-> **Verification Warning**: Many projects use generative models to analyze documents and can make errors, miss information, or even hallucinate false details. **Always cross verify findings with the actual source documents.** If you encounter erronous information, please [report it in the Safety repository](https://github.com/EF20K/Safety/issues/).
+## Verification Requirements
+
+**⚠️ MANDATORY**: AI tools can hallucinate facts, miss critical information, or misinterpret documents. 
+
+**Before accepting any finding as fact:**
+1. Verify against original source documents
+2. Cross-check with multiple analysis methods
+3. Confirm through independent sources
+4. Report errors immediately to the [Safety repository](https://github.com/EF20K/Safety/issues/)
 
 ## Getting Started
 
-### Quick Start with Python
+For researchers new to the dataset:
+- **[Getting_Started_w_Dataset.ipynb](Getting_Started_w_Dataset.ipynb)** - Basic exploration with emphasis on verification
 
-New to the dataset? Start with our Jupyter notebook:
+### Technical Background
 
-**[Getting_Started_w_Dataset.ipynb](Getting_Started_w_Dataset.ipynb)**
+The baseline implementation uses:
+- RAG (Retrieval Augmented Generation) for document analysis
+- Hybrid search combining BM25 and vector similarity
+- Multiple verification checkpoints
 
-## Gathering Insights
-This notebook provides basic exploration and analysis examples along with sample queries and filtering techniques
+Note: This baseline has known limitations and should be improved through community contribution.
 
-To demonstrate the dataset's utility, I built a reproducible RAG (Retrieval Augmented Generation) baseline. The implementation used simple chunking with a fixed window size and overlapping spans to capture different levels of context. Each chunk was encoded into vectors using Nomic embeddings, a lightweight yet effective embedding model.
+## Available Tools
 
-The search infrastructure combined Elasticsearch text and vector capabilities, implementing a hybrid retrieval approach that weighted BM25  and cosine similarity scores to produce a unified relevance ranking. For any given query, the system retrieved the top ranked chunks and passed them to the Gemini API for response generation.
+### Document Search & Analysis
 
-This straightforward setup enabled verification of publicly reported information. The system identified several associations that didn't appear in mainstream news coverage. However, the retrieval system also had limitations it missed certain details that were later highlighted in journalistic reports. This baseline serves as a starting point for the community. More sophisticated approaches using better chunking strategies, advanced embedding models, or refined retrieval methods could likely retrival quaility and faithfulness
+#### [Document Explorer](https://github.com/maxandrews/Epstein-doc-explorer)
+- Browse and search with advanced filtering
+- Browser-based, no external data transmission
+- Maintains source attribution
 
-## Projects
+#### [Natural Language Query Interface](https://agents.vectorize.io/agents/7d84aa5d-84ab-4991-b268-0b379983f57a/chat)
+- Query documents conversationally
+- Requires verification of AI-generated responses
+- Configurable privacy settings
 
-### Search & Analysis
+#### [Document Ranking System](https://github.com/latent-variable/epstein-ranker)
+- Algorithmic relevance ranking
+- Processes data locally
+- Transparent methodology
 
-#### [Epstein Document Explorer](https://github.com/maxandrews/Epstein-doc-explorer)
-- **Purpose**: Browse and search document collection
-- **Key Features**: Advanced search, filtering, bookmarking
-- **Privacy**: Browser-based interface
+#### [Offline Analysis Platform](https://epsteingate.org/)
+- Completely offline operation
+- Entity extraction and categorization
+- Scoring system for investigative leads
 
-#### [Epstein Files Chat](https://agents.vectorize.io/agents/7d84aa5d-84ab-4991-b268-0b379983f57a/chat)
-- **Purpose**: Query documents using natural language
-- **Key Features**: AI-powered Q&A, conversational interface
-- **Privacy**: Configurable deployment
+### Data Visualization
 
-#### [Epstein Ranker](https://github.com/latent-variable/epstein-ranker)
-- **Purpose**: Identify key documents by relevance
-- **Key Features**: Algorithm-based ranking, prioritized lists
-- **Privacy**: Local processing
+#### [Visual Analysis Tools](https://svetimfm.github.io/epstein-files-visualizations/)
+- Pattern identification through visualization
+- Client-side processing only
+- Interactive relationship mapping
 
-#### [Epstein Gate](https://epsteingate.org/)
-- **Purpose**: Discover investigative leads
-- **Key Features**: AI scoring (0-100), entity extraction, categorization
-- **Privacy**: Runs entirely offline
+## Contributing Responsibly
 
-### Visualization
+### Before Contributing
 
-#### [Epstein Files Visualizations](https://svetimfm.github.io/epstein-files-visualizations/)
-- **Purpose**: Visual analysis and patterns
-- **Key Features**: Interactive charts, relationship mapping
-- **Privacy**: Client side processing
+Ensure your project:
+- Serves legitimate investigative or research purposes
+- Includes clear warnings about AI limitations
+- Respects all redactions and privacy protections
+- Provides transparent methodology
+- Enables verification of findings
 
-## Contributing
-
-Contributions are always welcome!
-
-### Adding Your Project
+### Adding a Project
 
 1. Fork this repository
-2. Add your project using this format:
+2. Add your project with:
+   - Clear purpose statement
+   - Verification capabilities
+   - Privacy approach
+   - Methodology documentation
+3. Submit pull request with ethical use statement
 
-```markdown
-#### [Project Name](url)
-- **Purpose**: Brief description
-- **Key Features**: Main capabilities
-- **Privacy**: Privacy approach
-```
+### Reporting Issues
 
-3. Submit a pull request
+- **Misuse**: Report immediately to [Safety Repository](https://github.com/EF20K/Safety/issues/)
+- **Errors**: Document discrepancies with source materials
+- **Concerns**: Flag any problematic usage patterns
 
-### Guidelines
+## Ethical Requirements
 
-- Legitimate research/journalism purposes
-- Clear documentation
-- Open-source preferred
-- Transparent data handling
+All projects must:
+- Never attempt to identify redacted individuals
+- Prioritize accuracy over sensationalism
+- Enable traceability to source documents
+- Support professional investigation standards
+- Respect the gravity of the subject matter
 
 ## Resources
 
-- [Datasets Repository](https://github.com/EF20K/Datasets) - Dataset documentation and access
-- [Safety Repository](https://github.com/EF20K/Safety) - Report issues with projects or data
-- [House Oversight Release](https://oversight.house.gov/release/oversight-committee-releases-additional-epstein-estate-documents/) - Original source
+- [Original Government Release](https://oversight.house.gov/release/oversight-committee-releases-additional-epstein-estate-documents/)
+- [Dataset Documentation](https://github.com/EF20K/Datasets)
+- [Safety & Ethics Reporting](https://github.com/EF20K/Safety)
+- [Hugging Face Ethics Guidelines](https://huggingface.co/ethics)
 
 ---
 
 <div align="center">
-<p>Community-maintained • Not affiliated with any official investigation</p>
+<p><strong>Remember: This involves real crimes with real victims. Approach with appropriate seriousness.</strong></p>
+<p>Community-maintained • Supporting accountability through transparency</p>
 </div>
