@@ -31,7 +31,7 @@
 
 <br />
 
-# 📔 Table of Contents
+# Table of Contents
 
 - [About](#-about)
 - [Getting Started](#-getting-started)
@@ -39,31 +39,34 @@
 - [Contributing](#-contributing)
 - [Resources](#-resources)
 
-## 🌟 About
+## About
 
 This repository catalogs community developed projects for analyzing 20,000+ pages of Epstein files released by the House Oversight Committee on November 12, 2025.
 
 > **Content Notice**: Documents contain sensitive material related to criminal investigations.
 
-> **⚠️ Verification Warning**: Many projects use generative models to analyze documents and can make errors, miss information, or even hallucinate false details. **Always cross verify findings with the actual source documents.** If you encounter erronous information, please [report it in the Safety repository](https://github.com/EF20K/Safety/issues/).
+> **Verification Warning**: Many projects use generative models to analyze documents and can make errors, miss information, or even hallucinate false details. **Always cross verify findings with the actual source documents.** If you encounter erronous information, please [report it in the Safety repository](https://github.com/EF20K/Safety/issues/).
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Quick Start with Python
 
-New to the dataset? Start with our beginner friendly Jupyter notebook:
+New to the dataset? Start with our Jupyter notebook:
 
 **[Getting_Started_w_Dataset.ipynb](Getting_Started_w_Dataset.ipynb)**
 
-This notebook provides:
-- Basic exploration and analysis examples
-- Sample queries and filtering techniques
+## Gathering Insights
+This notebook provides basic exploration and analysis examples along with sample queries and filtering techniques
 
-Perfect for users interested in developing new analysis tools or conducting research using the hugging face dataset.
+To demonstrate the dataset's utility, I built a reproducible RAG (Retrieval Augmented Generation) baseline. The implementation used simple chunking with a fixed window size and overlapping spans to capture different levels of context. Each chunk was encoded into vectors using Nomic embeddings, a lightweight yet effective embedding model.
 
-## 🧰 Projects
+The search infrastructure combined Elasticsearch text and vector capabilities, implementing a hybrid retrieval approach that weighted BM25  and cosine similarity scores to produce a unified relevance ranking. For any given query, the system retrieved the top ranked chunks and passed them to the Gemini API for response generation.
 
-### 🔍 Search & Analysis
+This straightforward setup enabled verification of publicly reported information. The system identified several associations that didn't appear in mainstream news coverage. However, the retrieval system also had limitations it missed certain details that were later highlighted in journalistic reports. This baseline serves as a starting point for the community. More sophisticated approaches using better chunking strategies, advanced embedding models, or refined retrieval methods could likely retrival quaility and faithfulness
+
+## Projects
+
+### Search & Analysis
 
 #### [Epstein Document Explorer](https://github.com/maxandrews/Epstein-doc-explorer)
 - **Purpose**: Browse and search document collection
@@ -85,14 +88,14 @@ Perfect for users interested in developing new analysis tools or conducting rese
 - **Key Features**: AI scoring (0-100), entity extraction, categorization
 - **Privacy**: Runs entirely offline
 
-### 📊 Visualization
+### Visualization
 
 #### [Epstein Files Visualizations](https://svetimfm.github.io/epstein-files-visualizations/)
 - **Purpose**: Visual analysis and patterns
 - **Key Features**: Interactive charts, relationship mapping
 - **Privacy**: Client side processing
 
-## 👋 Contributing
+## Contributing
 
 Contributions are always welcome!
 
@@ -112,12 +115,12 @@ Contributions are always welcome!
 
 ### Guidelines
 
-- ✅ Legitimate research/journalism purposes
-- ✅ Clear documentation
-- ✅ Open-source preferred
-- ✅ Transparent data handling
+- Legitimate research/journalism purposes
+- Clear documentation
+- Open-source preferred
+- Transparent data handling
 
-## 💎 Resources
+## Resources
 
 - [Datasets Repository](https://github.com/EF20K/Datasets) - Dataset documentation and access
 - [Safety Repository](https://github.com/EF20K/Safety) - Report issues with projects or data
