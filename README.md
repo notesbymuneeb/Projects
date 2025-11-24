@@ -78,6 +78,10 @@ For researchers new to the dataset:
 - Client-side processing only
 - Interactive relationship mapping
 
+## Derived Datasets
+
+### [Epstein Email Threads Dataset](https://github.com/notesbymuneeb/epstein-emails)
+A structured dataset derived from our source materials that extracts and parses **5,082 email threads** containing **16,447 individual messages**. The dataset uses LLM-based extraction to separate individual messages within threads, extract structured metadata (senders, recipients, timestamps, subjects), and clean message bodies. Available on [Hugging Face](https://huggingface.co/datasets/notesbymuneeb/epstein-emails).
 
 ### Adding a Project
 
