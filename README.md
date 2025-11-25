@@ -15,7 +15,7 @@
 On November 12, 2025, the U.S. House Oversight Committee released over 20,000 pages of documents from the Epstein estate. This repository catalogs community developed tools designed to support transparent, responsible analysis of these public records specificaly using the tensonaut/EPSTEIN_FILES_20K data hosted on Hugging Face
 
 > **These documents involve real crimes and real victims.**  
-> All work must respect victim privacy and dignity. This is not a typical data science project—approach with appropriate gravity.
+> All work must respect victim privacy and dignity. This is not a typical data science project. Approach with appropriate gravity.
 
 ---
 
@@ -37,7 +37,7 @@ These tools are designed to support:
 AI-powered tools can hallucinate facts, omit critical context, or misinterpret documents. Before treating any finding as fact:
 
 1. **Verify** against original source documents
-2. **Cross-check** using multiple analysis methods
+2. **Cross check** using multiple analysis methods
 3. **Corroborate** through independent sources
 4. **Report errors** immediately via the [Safety Repository](https://github.com/EF20K/Safety/issues/)
 
@@ -47,7 +47,7 @@ AI-powered tools can hallucinate facts, omit critical context, or misinterpret d
 
 New to the dataset? Begin here:
 
-📓 **[Getting_Started_w_Dataset.ipynb](Getting_Started_w_Dataset.ipynb)** — Introductory exploration with emphasis on verification practices
+📓 **[Getting_Started_w_Dataset.ipynb](Getting_Started_w_Dataset.ipynb)** 
 
 ---
 
