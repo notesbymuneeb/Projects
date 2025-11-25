@@ -2,7 +2,7 @@
 
 # Epstein Estate Documents: Investigation Tools
 
-**A curated registry of open-source tools for analyzing public records released by the U.S. House Oversight Committee**
+**A curated registry of open source tools for analyzing public records released by the U.S. House Oversight Committee hosted at Hugging Facw (tensonaut/EPSTEIN_FILES_20K) **
 
 [Active Projects](https://github.com/EF20K/Projects) • [Dataset](https://huggingface.co/datasets/tensonaut/EPSTEIN_FILES_20K) • [Report Misuse](https://github.com/EF20K/Safety/issues/)
 
@@ -51,7 +51,7 @@ New to the dataset? Begin here:
 
 ---
 
-## Tool Directory
+## Active Projects Directory
 
 ### Document Search & Analysis
 
