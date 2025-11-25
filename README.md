@@ -1,113 +1,110 @@
 <div align="center">
-  <h1>Epstein Estate Documents: Investigation Tools</h1>
-  
-  <p>
-    Cataloging tools for analyzing public documents released by the House Oversight Committee
-  </p>
-  
-  <p>
-    <a href="https://github.com/EF20K/Projects">Active Projects</a>
-    •
-    <a href="https://github.com/EF20K/Safety/issues/">Report Misuse</a>
-  </p>
+
+# Epstein Estate Documents: Investigation Tools
+
+**A curated registry of open-source tools for analyzing public records released by the U.S. House Oversight Committee**
+
+[Active Projects](https://github.com/EF20K/Projects) • [Dataset](https://huggingface.co/datasets/tensonaut/EPSTEIN_FILES_20K) • [Report Misuse](https://github.com/EF20K/Safety/issues/)
+
 </div>
-<br />
 
-## Important Context
+---
 
-This repository catalogs tools for analyzing 20,000+ pages of documents released by the House Oversight Committee on November 12, 2024. These documents contain evidence related to serious criminal activities with real victims.
+## About This Project
 
-**Critical Warnings:**
-- These documents involve real crimes and real victims
-- All analysis must respect victim privacy and dignity
-- Findings require rigorous verification against source documents
-- AI-generated analyses can contain errors or false information
-- This is not a typical data science project - approach with appropriate gravity
+On November 12, 2025, the U.S. House Oversight Committee released over 20,000 pages of documents from the Epstein estate. This repository catalogs community-developed tools designed to support transparent, responsible analysis of these public records, specifically using the [tensonaut/EPSTEIN_FILES_20K](https://huggingface.co/datasets/tensonaut/EPSTEIN_FILES_20K) dataset hosted on Hugging Face.
 
-## Purpose
+> **These documents involve real crimes and real victims.**  
+> All work must respect victim privacy and dignity. This is not a typical data science project—approach with appropriate gravity.
 
-These tools aim to support:
+---
+
+## Intended Use
+
+These tools are designed to support:
+
 - Professional journalists conducting investigations
 - Legal researchers analyzing evidence
-- Academic researchers with institutional oversight
-- Transparency and accountability efforts
+- Academic researchers operating under institutional oversight
+- Transparency and public accountability efforts
+
+---
 
 ## Verification Requirements
 
-**⚠️ MANDATORY**: AI tools can hallucinate facts, miss critical information, or misinterpret documents. 
+> ⚠️ **Mandatory for all users**
 
-**Before accepting any finding as fact:**
-1. Verify against original source documents
-2. Cross-check with multiple analysis methods
-3. Confirm through independent sources
-4. Report errors immediately to the [Safety repository](https://github.com/EF20K/Safety/issues/)
+AI-powered tools can hallucinate facts, omit critical context, or misinterpret documents. Before treating any finding as fact:
+
+1. **Verify** against original source documents
+2. **Cross-check** using multiple analysis methods
+3. **Corroborate** through independent sources
+4. **Report errors** immediately via the [Safety Repository](https://github.com/EF20K/Safety/issues/)
+
+---
 
 ## Getting Started
 
-For researchers new to the dataset:
-- **[Getting_Started_w_Dataset.ipynb](Getting_Started_w_Dataset.ipynb)** - Basic exploration with emphasis on verification
+New to the dataset? Begin here:
 
-## Available Tools
+📓 **[Getting_Started_w_Dataset.ipynb](Getting_Started_w_Dataset.ipynb)**
+
+---
+
+## Active Projects Directory
 
 ### Document Search & Analysis
 
-#### [Document Explorer](https://github.com/maxandrews/Epstein-doc-explorer)
-- Browse and search with advanced filtering
-- Browser-based, no external data transmission
-- Maintains source attribution
-
-#### [Natural Language Query Interface](https://agents.vectorize.io/agents/7d84aa5d-84ab-4991-b268-0b379983f57a/chat)
-- Query documents conversationally
-- Requires verification of AI-generated responses
-- Configurable privacy settings
-
-#### [Document Ranking System](https://github.com/latent-variable/epstein-ranker)
-- Algorithmic relevance ranking
-- Processes data locally
-- Transparent methodology
-
-#### [Offline Analysis Platform](https://epsteingate.org/)
-- Completely offline operation
-- Entity extraction and categorization
-- Scoring system for investigative leads
+| Tool | Description |
+|------|-------------|
+| [Document Explorer](https://github.com/maxandrews/Epstein-doc-explorer) | Browser-based search with advanced filtering. Runs locally; no external data transmission. |
+| [Natural Language Query Interface](https://agents.vectorize.io/agents/7d84aa5d-84ab-4991-b268-0b379983f57a/chat) | Conversational document queries. AI-generated responses require verification. |
+| [Document Ranking System](https://github.com/latent-variable/epstein-ranker) | Algorithmic relevance scoring with transparent methodology. Processes data locally. |
+| [Offline Analysis Platform](https://epsteingate.org/) | Fully offline operation with entity extraction, categorization, and investigative scoring. |
 
 ### Data Visualization
 
-#### [Visual Analysis Tools](https://svetimfm.github.io/epstein-files-visualizations/)
-- Pattern identification through visualization
-- Client-side processing only
-- Interactive relationship mapping
+| Tool | Description |
+|------|-------------|
+| [Visual Analysis Tools](https://svetimfm.github.io/epstein-files-visualizations/) | Interactive relationship mapping and pattern identification. Client-side processing only. |
 
 ### Derived Datasets
 
-#### [Epstein Email Threads Dataset](https://github.com/notesbymuneeb/epstein-emails)
-A structured dataset derived from our source materials that extracts and parses **5,082 email threads** containing **16,447 individual messages**. The dataset uses LLM-based extraction to separate individual messages within threads, extract structured metadata (senders, recipients, timestamps, subjects), and clean message bodies. Available on [Hugging Face](https://huggingface.co/datasets/notesbymuneeb/epstein-emails).
+| Dataset | Description |
+|---------|-------------|
+| [Epstein Email Threads](https://github.com/notesbymuneeb/epstein-emails) | Structured extraction of 5,082 email threads (16,447 messages) with parsed metadata including senders, recipients, timestamps, and subjects. LLM-based processing. [Hugging Face](https://huggingface.co/datasets/notesbymuneeb/epstein-emails) |
 
-### Adding a Project
+---
 
-1. **Fork this repository** and clone it locally
+## Contributing
 
+### Submit a Project
+
+1. **Fork** this repository
 2. **Add your project** with:
-   - Project name and description
+   - Name and description
    - How it supports open investigation
-   - Link to your public repository
-   - Warning about AI limitations and need to verify findings against source documents
-
-3. **Submit a pull request** with a brief ethical use statement confirming you will:
+   - Link to public repository
+   - Clear disclosure of AI limitations and verification requirements
+3. **Submit a pull request** including a brief statement confirming you will:
    - Respect all redactions
-   - Follow journalistic ethics
+   - Adhere to journalistic ethics standards
    - Report findings responsibly
 
-### Reporting Issues
+### Report an Issue
 
-- **Misuse**: Report immediately to [Safety Repository](https://github.com/EF20K/Safety/issues/)
-- **Errors**: Document discrepancies with source materials
-- **Concerns**: Flag any problematic usage patterns
+| Type | Action |
+|------|--------|
+| **Misuse** | Report immediately → [Safety Repository](https://github.com/EF20K/Safety/issues/) |
+| **Errors** | Document discrepancies with source materials |
+| **Concerns** | Flag problematic usage patterns |
 
+---
 
 ## Resources
 
-- [Original Government Release](https://oversight.house.gov/release/oversight-committee-releases-additional-epstein-estate-documents/)
+- [Official Government Release](https://oversight.house.gov/release/oversight-committee-releases-additional-epstein-estate-documents/)
+- [Dataset on Hugging Face](https://huggingface.co/datasets/tensonaut/EPSTEIN_FILES_20K)
 - [Dataset Documentation](https://github.com/EF20K/Datasets)
 - [Safety & Ethics Reporting](https://github.com/EF20K/Safety)
 - [Hugging Face Ethics Guidelines](https://huggingface.co/ethics)
@@ -115,6 +112,9 @@ A structured dataset derived from our source materials that extracts and parses 
 ---
 
 <div align="center">
-<p><strong>Remember: This involves real crimes with real victims. Approach with appropriate seriousness.</strong></p>
-<p>Community-maintained • Supporting accountability through transparency</p>
+
+**This project involves real crimes with real victims. Conduct all work with appropriate seriousness and care.**
+
+Community-maintained • Supporting accountability through transparency
+
 </div>
