@@ -2,7 +2,7 @@
 
 # Epstein Estate Documents: Investigation Tools
 
-**A curated registry of open source tools for analyzing public records released by the U.S. House Oversight Committee hosted at Hugging Facw (tensonaut/EPSTEIN_FILES_20K)**
+**A curated registry of open source tools for analyzing public records released by the U.S. House Oversight Committee**
 
 [Active Projects](https://github.com/EF20K/Projects) • [Dataset](https://huggingface.co/datasets/tensonaut/EPSTEIN_FILES_20K) • [Report Misuse](https://github.com/EF20K/Safety/issues/)
 
@@ -12,7 +12,7 @@
 
 ## About This Project
 
-On November 12, 2025, the U.S. House Oversight Committee released over 20,000 pages of documents from the Epstein estate. This repository catalogs community-developed tools designed to support transparent, responsible analysis of these public records.
+On November 12, 2025, the U.S. House Oversight Committee released over 20,000 pages of documents from the Epstein estate. This repository catalogs community developed tools designed to support transparent, responsible analysis of these public records specificaly using the tensonaut/EPSTEIN_FILES_20K data hosted on Hugging Face
 
 > **These documents involve real crimes and real victims.**  
 > All work must respect victim privacy and dignity. This is not a typical data science project—approach with appropriate gravity.
